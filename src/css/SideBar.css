@@ -1,0 +1,56 @@
+:root {
+  --active-item-color: #e6e1d6;
+}
+
+.sidebar-logo{
+    width: 149px;
+    height: 92.78px;
+}
+
+.sidebar-link{
+    color: inherit;
+    text-decoration: inherit;
+    width: 100%;
+}
+
+.sidebar-link:hover{
+  background-color: var(--active-item-color);
+}
+
+.sidebar-link span{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #64675A;
+}
+.sidebar-logout{
+    box-shadow: none !important;
+}
+.sidebar-logout span{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #FF5656;
+    text-transform: none;
+}
+
+.sidebar-logout img{
+    margin-right: 1em;
+}
+
+.bm-burger-button{
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  z-index: 1200;
+}
+
+.side-bar{
+  background: #ffffff;
+}
+
+.active-item {
+  background-color: var(--active-item-color);
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}

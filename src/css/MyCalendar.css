@@ -1,0 +1,9 @@
+.fc{
+    font-family: 'Raleway';
+}
+
+.fc .fc-button-primary {
+    background-color: #64675a;
+    color: white;
+    /* Additional styles if needed */
+}

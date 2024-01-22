@@ -1,0 +1,27 @@
+.EventContainer {
+    margin-top: 30px;
+    border: solid 1px #879472;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.EventHeader {
+    background: #879472;
+}
+
+.EventRow {
+    display: flex!important;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.EventCell {
+    height: 45px;
+}
+
+.EventIcon {
+    margin-right: 10px;
+}
