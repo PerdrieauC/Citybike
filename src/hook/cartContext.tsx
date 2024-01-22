@@ -2,7 +2,7 @@ import React, {useContext, useState} from "react";
 import {Product} from "./marketplace";
 import {Cart} from "./cart";
 
-const cartContext = React.createContext(null);
+const cartContext = React.createContext({});
 
 export const CartProvider = ({ children }) => {
     const [carts, setCarts] = useState<Array<Cart>>([]);
